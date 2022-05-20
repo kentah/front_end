@@ -1,0 +1,7 @@
+.bar {
+  display: inline-flex;
+  /*flex-direction: row;*/
+  background-color: #eee;
+  height: 2rem;
+  width: 100%;
+}

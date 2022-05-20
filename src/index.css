@@ -1,0 +1,11 @@
+body, html {
+  height: 100vh;
+  width: 100vh;
+  background-color: #eee;
+}
+
+.app {
+  display: flex;
+  /*height: 100vh;
+  width: 100vh;*/
+}

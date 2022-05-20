@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap');
+
+.wrapper-class {
+  padding: 1rem;
+  border: 1px solid #ccc;
+}
+
+.editor-class {
+  background-color: white;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  height: 50vh;
+}
+
+.toolbar-class {
+  border: 1px solid #ccc;
+}
+.blog-editor-content {
+  font-family: 'Nanum Gothic', sans-serif;
+  padding-top: 50px;
+}
+
+.form-box {
+  background-color: #718099; 
+  position: relative;
+  padding: 40px;
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+  border-radius: 10px;
+  max-width: 100vw;
+  max-height: 100vh;
+}
+
+.form-box header {
+  margin: 0 0 30px;
+  font-size: 2em;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+}
+
+.form-box .title-box-d {
+  position: relative;
+  padding: 0 20px;
+}
+
+.title {
+  text-align: left;
+  text-indent: 1em;
+}
+
+.form-box .title-box-d input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: black; 
+  margin-bottom: 30px;
+  /*border: none;*/
+  /*border-bottom: 1px solid black;*/
+  border-radius: 10px;
+  /*outline: none;*/
+  /*background: transparent;*/
+}
+
+.form-box .title-box label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: black;
+  pointer-events: none;
+  transition: .5s;
+}
+
+.form-box .title-box input:focus ~ label,
+.form-box .title-box input:valid ~ label {
+  top: -20px;
+  left: 0;
+  color: #03e9f4;
+  font-size: 12px;
+}
+
+.publishedLabel {
+  color: #ccc;
+}

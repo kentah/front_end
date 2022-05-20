@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap');
+
+.list-container {
+  display: flex;
+  width: 100 vw;
+  align-items: center;
+}
+
+.list {
+  display: flex;
+  font-family: 'Roboto' sans-serif;
+  flex-direction: column;
+  list-style-type: none;
+  margin-top: 5%;
+}
