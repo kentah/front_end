@@ -1,9 +1,11 @@
 import React from 'react'
 
+import { UnderConstruction } from '../Admin/underConstruction'
+
 const Info: React.FC = () =>  {
   return (
     <div>
-      Info
+      <UnderConstruction name={'Info'} />
     </div>
   )
 }
