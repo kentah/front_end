@@ -5,46 +5,14 @@ import './navbar.css'
 //import { AuthContext } from '../../../context/authContext'
 
 const navItems: NavbarItemProps[] = [
-  {
-    name: 'Home',
-    link: '/',
-    auth: true
-  },
-  {
-    name: 'Blog',
-    link: '/blog',
-    auth: true
-  },
-  {
-    name: 'Sound',
-    link: '/sound',
-    auth: true
-  },
-  {
-    name: 'Art',
-    link: '/art',
-    auth: true
-  },
-  {
-    name: 'Info',
-    link: '/info',
-    auth: true
-  },
-  {
-    name: 'Edit',
-    link: '/edit',
-    auth: true
-  },
-  {
-    name: 'Login',
-    link: '/login',
-    auth: true
-  },
-  {
-    name: 'Admin',
-    link: '/admin',
-    auth: false
-  },
+  { name: 'Home', link: '/', auth: true },
+  { name: 'Blog', link: '/blog', auth: true },
+  { name: 'Sound', link: '/sound', auth: true },
+  { name: 'Art', link: '/art', auth: true },
+  { name: 'Info', link: '/info', auth: true },
+  { name: 'Edit', link: '/edit', auth: true },
+  { name: 'Login', link: '/login', auth: true },
+  { name: 'Admin', link: '/admin', auth: false },
 ]
 
 export const Navbar = () => {
@@ -58,7 +26,7 @@ export const Navbar = () => {
 
   console.log('in navbar')
   return ( 
-    <div className="bar">
+    <div className="back-bar">
         {navItems.map((i, k) => {
           return(
             <nav key={k} className='bar'>

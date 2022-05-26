@@ -1,7 +1,15 @@
 .bar {
   display: inline-flex;
   /*flex-direction: row;*/
-  background-color: #eee;
   height: 2rem;
   width: 100%;
+}
+
+.back-bar {
+  display: inline-flex;
+  flex-direction: row;
+  background-color: #eee;
+  height: 2.3rem;
+  width: 100vw;
+  margin-bottom: 1rem;
 }

@@ -1,5 +1,7 @@
 .fix-nav {
   position: fixed;
   width: 100vw;
+  padding-top: 0;
+  justify-content: center;
 }
   
