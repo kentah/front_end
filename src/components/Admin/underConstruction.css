@@ -1,4 +1,33 @@
-.content {
+.under-construction-outer {
+  margin: 2rem;;
+  justify-content: center;
+  height: 30vh;
+  width: 75vw;
+  background-color: rgba(108, 122, 137);
+  border-bottom-right-radius: 60px;
+
+}
+
+.under-construction-inner {
+  margin: 2rem;;
+  justify-content: center;
+  width: 50%;
+  height: 75%;
+  background-color: rgba(228, 122, 137);
+  border-bottom-left-radius: 60px;
+}
+
+.construction-content {
+  padding: 2rem;
+  width: 50%;
+  background-color: rgba(149, 165, 166);
+  border-bottom-right-radius: 60px;
+}
+
+
+.text {
   font-size: 25px;
-  margin: 100px 0;
+  font-family: 'Nanum Gothic', sans-serif;
+  color: rgba(238, 238, 238, 1);
+  mix-blend-mode: lighten;
 }

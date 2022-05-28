@@ -8,8 +8,12 @@ export interface Constructionitems {
 
 export const UnderConstruction: React.FC<Constructionitems> = ({name}) => {
 	return (
-		<div className='content'>
-			{name} is currently under construction
+		<div className= 'under-construction-outer'>
+			<div className='under-construction-inner'>
+				<div className='construction-content'>
+					<span className='text'>{name} is currently under construction...</span>
+				</div>
+			</div>
 		</div>
 	)
 }
